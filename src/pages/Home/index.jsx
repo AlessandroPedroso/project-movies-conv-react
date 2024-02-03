@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 
-import { Container, ContainerItems } from "../../pages/home/styles";
+import { Container, ContainerItems } from "./styles";
 import { Header } from "../../components/header";
 import Card from "../../components/Card";
 import { getMovies } from "../../utils/getData";
