@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import api from "../../services/api";
 
 import { Container, ContainerItems } from "./styles";
-import { Header } from "../../components/header/index.jsx";
+import { Header } from "../../components/Header/index.jsx";
 import Card from "../../components/Card/index.jsx";
 import { getMovies } from "../../utils/getData";
 
