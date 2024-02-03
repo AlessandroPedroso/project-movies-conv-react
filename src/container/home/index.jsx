@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import api from "../../services/api";
 
 import { Container, ContainerItems } from "./styles";
-import { Header } from "../../components/header";
-import Card from "../../components/Card";
+import { Header } from "../../components/header/index";
+import Card from "../../components/Card/index";
 import { getMovies } from "../../utils/getData";
 
 const Home = () => {
